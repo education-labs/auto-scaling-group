@@ -1,4 +1,4 @@
-prefix              =       "user01"
+prefix              =       "user**"
 region              =       "ap-northeast-2"
 vpc_cidr            =       "10.0.0.0/16"
 
@@ -12,10 +12,10 @@ private_subnets = [
     {cidr = "10.0.13.0/24", availability_zone = "ap-northeast-2c"},
 ]
 
-admin_access_cidrs          =   ["116.127.84.104/32"]
+admin_access_cidrs          =   ["0.0.0.0/0"]
 
-image_id                      =   "ami-0bd6a6028b6d79d45"
-data_vol_snapshot_id        =   "snap-0d40305f7235e49c0"
+image_id                      =   "ami-0b5792a6a9705711b"
+data_vol_snapshot_id        =   "snap-08f7557106cdaa39c"
 data_volume_size        =       "10"
 
 instance_type           =       "t3.micro"
